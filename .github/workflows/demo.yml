@@ -17,7 +17,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
       - name: Run a demo step
         run: echo "Hello from GitHub Actions! This is the demo CI pipeline."
